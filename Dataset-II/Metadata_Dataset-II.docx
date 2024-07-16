@@ -1,0 +1,15 @@
+Metadata Explanation for multipath.xlsx
+File Description:
+The file `multipath.xlsx` contains data extracted from the Google API. It provides detailed information on multiple paths between various source and destination coordinates. Each cell in the file contains data for three paths, including distance, duration of traveling, and traffic conditions.
+File Structure:
+- First Column: Lists all source addresses (coordinates).
+- First Row (Header): Lists all destination coordinates.
+- Cells: Each cell contains data for three paths, separated by commas. Each path includes three entries:
+  1. Distance
+  2. Duration of traveling
+  3. Traffic conditions
+Example:
+- Source Address (33.715366,73.1301027) to Destination Address (33.64989201,73.05321535):
+  - Path 1: 19.15 (distance), 30.23 (duration), 27.93 (traffic)
+  - Path 2: 17.48 (distance), 31.03 (duration), 28.35 (traffic)
+  - Path 3: 19.15 (distance), 30.23 (duration), 27.93 (traffic)
